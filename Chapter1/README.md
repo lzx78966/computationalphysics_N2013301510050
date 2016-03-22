@@ -39,7 +39,7 @@ Consider again a decay problem with two types of nuclei A and B, but now suppose
         nb.append(nb_next)  
         t.append(t_next)  
 
- #画图
+    #画图
 
     from pylab import *
 
