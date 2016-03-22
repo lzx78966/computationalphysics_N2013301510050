@@ -17,19 +17,19 @@ Consider again a decay problem with two types of nuclei A and B, but now suppose
 >4.得出图像后进行与理论的验证  
 
 ##Code  
- #question1.5  
+    #question1.5  
 
- #初始化参数  
- print 'Import Initial numbers and we can go on:'  
- na_0=float(raw_input('The initial number of A: '))  
- nb_0=float(raw_input('The initial number of B: '))  
- t_0=float(raw_input('The initial number of time: '))  
- dt=float(raw_input('The time step is: '))  
- na=[na_0]  
- nb=[nb_0]  
- t=[t_0]  
+    #初始化参数  
+    print 'Import Initial numbers and we can go on:'  
+    na_0=float(raw_input('The initial number of A: '))  
+    nb_0=float(raw_input('The initial number of B: '))  
+    t_0=float(raw_input('The initial number of time: '))  
+    dt=float(raw_input('The time step is: '))  
+    na=[na_0]  
+    nb=[nb_0]  
+    t=[t_0]  
 
- #进行计算  
+    #进行计算  
 
  for i in range(200):  
      na_next=na[-1]+(nb[-1]-na[-1])*dt  
@@ -41,24 +41,24 @@ Consider again a decay problem with two types of nuclei A and B, but now suppose
 
  #画图
 
- from pylab import *
+    from pylab import *
 
 
- aa=array(na)  
- bb=array(nb)  
- tt=array(t)  
+    aa=array(na)  
+    bb=array(nb)  
+    tt=array(t)  
 
- plot(tt,aa,label='NA',color='yellowgreen')  
- plot(tt,bb,label='NB',color='gold')  
+    plot(tt,aa,label='NA',color='yellowgreen')  
+    plot(tt,bb,label='NB',color='gold')  
 
- yticks([0,10,20,30,40,50,60,70,80,90,100])  
+    yticks([0,10,20,30,40,50,60,70,80,90,100])  
 
- plt.xlabel('time (s)')  
- plt.ylabel('The initial number')  
- plt.title('picture for question 1.5')  
- plt.grid(True)  
- plt.savefig("chapter1 picture.png")  
- plt.show()  
+    plt.xlabel('time (s)')  
+    plt.ylabel('The initial number')  
+    plt.title('picture for question 1.5')  
+    plt.grid(True)  
+    plt.savefig("chapter1 picture.png")  
+    plt.show()  
 
 你能在我的作业文件夹中得到这些代码。[chapter1 code](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter1/chapter1.py)
 
