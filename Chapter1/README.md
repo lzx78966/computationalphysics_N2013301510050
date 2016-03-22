@@ -31,13 +31,13 @@ Consider again a decay problem with two types of nuclei A and B, but now suppose
 
     #进行计算  
 
- for i in range(200):  
-     na_next=na[-1]+(nb[-1]-na[-1])*dt  
-     nb_next=nb[-1]+(na[-1]-nb[-1])*dt  
-     t_next=t[-1]+dt  
-     na.append(na_next)  
-     nb.append(nb_next)  
-     t.append(t_next)  
+    for i in range(200):  
+        na_next=na[-1]+(nb[-1]-na[-1])*dt  
+        nb_next=nb[-1]+(na[-1]-nb[-1])*dt  
+        t_next=t[-1]+dt  
+        na.append(na_next)  
+        nb.append(nb_next)  
+        t.append(t_next)  
 
  #画图
 
