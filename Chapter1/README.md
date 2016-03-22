@@ -1,13 +1,13 @@
 ##Question 1.5:
 
-Consider again a decay problem with two types of nuclei A and B, but now suppose that nuclei of type A decay into ones of type B, while nuclei of type B decay into ones of type A. Strictly speaking, this is not a "decay" process, since it is possible for the type B nuclei to turn back into type A nuclei. A better analogy would be a resonance in which a system can tunnel or move back and forth between two states A and B which have equal energies. The corresponding rate equations are[公式一](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter1/1.png)where for simplicity we have assumed that the two types of decay are characterized by the same time constant, tau. Solve this system of equation for the numbers of nuclei, NA and NB, as functions of time. Consider different initial conditions, such as NA=100, NB=0, etc, and take tau=1s. Show that your numerical results are consistent with the idea that the system reaches a steady state in which NA and NB are constant. In such a steady state, the time derivatives dNA/dt and dNB/dt should vanish.
+Consider again a decay problem with two types of nuclei A and B, but now suppose that nuclei of type A decay into ones of type B, while nuclei of type B decay into ones of type A. Strictly speaking, this is not a "decay" process, since it is possible for the type B nuclei to turn back into type A nuclei. A better analogy would be a resonance in which a system can tunnel or move back and forth between two states A and B which have equal energies. The corresponding rate equations are![公式一](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter1/1.png?raw=true)where for simplicity we have assumed that the two types of decay are characterized by the same time constant, tau. Solve this system of equation for the numbers of nuclei, NA and NB, as functions of time. Consider different initial conditions, such as NA=100, NB=0, etc, and take tau=1s. Show that your numerical results are consistent with the idea that the system reaches a steady state in which NA and NB are constant. In such a steady state, the time derivatives dNA/dt and dNB/dt should vanish.
 
 ##Solving process:
 
 >用差分代替题目中的微分可得：
->[公式二](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter1/2.png)
+>![公式二](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter1/2.png?raw=true)
 >整理上式可以得到：
->[公式三](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter1/3.png)
+>![公式三](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter1/3.png?raw=true)
 
 ##Main process
 
@@ -62,3 +62,4 @@ Consider again a decay problem with two types of nuclei A and B, but now suppose
 
 你能在我的作业文件夹中得到这些代码。[chapter1 code](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter1/chapter1.py)
 
+得到的函数图像如下![picture](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter1/chapter1picture.png?raw=true)
