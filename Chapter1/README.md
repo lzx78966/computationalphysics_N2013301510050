@@ -62,4 +62,19 @@ Consider again a decay problem with two types of nuclei A and B, but now suppose
 
 你能在我的作业文件夹中得到这些代码。[chapter1 code](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter1/chapter1.py)
 
-得到的函数图像如下![picture](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter1/chapter1picture.png?raw=true)
+得到的函数图像如下![picture](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter1/chapter1picture.png?raw=true)  
+
+
+第二次作业仍然是在第一章选择一道课后题，这次选择第三题。
+
+##解题思路与过程
+本题涉及到解关于空气阻力对物体下落速度的影响，涉及到的主要变量为速度v和时间t，主要参量为重力因子a,摩擦力因子b,时间微元dt。 在作图前，需要引入相应的模块，关于图的细节方面，主要考虑了图像的线宽，颜色，图线种类，标题,背景网格线，坐标轴的标识，刻度，以及图例等等
+##程序代码  
+你可以点击这个超链接来获得代码[problem1-3]()
+得到的函数图像如下![picture]()
+##结论
+本题的速度变化值随着时间的增长逐渐趋近于0,整体速度趋于稳定。  
+运用euler法解决常微分方程的数值解问题十分的快捷，加以第三方的matplotlib库来做图，能更直观揭示解的物理意义。
+##致谢
+程序参考了蔡浩老师课堂上给出的例子的写作方式。
+
