@@ -22,14 +22,14 @@
 >##题目背景
 在原有弹道曲线的基础上，忽略了风阻随空气密度变化的影响，但加入了新的考虑因素，如棒球的表面形状以及击球时产生的自旋对轨迹的影响。  
 具体表现为由于表面形状的不规则性，风阻不是一个常数，而是随速度变化的。  
-具体关系为：![picture1]()  
-而自旋速度也产生一个浮力，具体关系为：![picture2]()  
+具体关系为：![picture1](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter2/picture1.gif)  
+而自旋速度也产生一个浮力，具体关系为：![picture2](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter2/picture2.gif)  
 控制vx，vz的情况下观察轨迹的变化,在这里讨论了转速为2000rpm的情况.
 
 >##正文
 分别只改变VX和只改变VZ，保证转速不变的情况下棒球的运动轨迹。  
-你可以在这里得到我的代码。[problem2.19]()
+你可以在这里得到我的代码。[problem2.19](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter2/problem2.19.py)
 程序得到的两幅图像如下：
-![picture3]()  
-![picture4]()
+![picture3](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter2/picture3.png)  
+![picture4](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter2/picture4.png)
 
