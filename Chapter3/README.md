@@ -38,9 +38,8 @@
 用子程序形式即为：  
 <center>![3](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/3.gif)  
 <center>![4](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/4.gif)  
-<center>![5](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/5.gif)
-
-你可以在这里得到我的[代码]()  
+<center>![5](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/5.gif)  
+你可以在这里得到我的[代码](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/problem3.12.py)  
 所得F_d在各种取值下theta的图像  
 ![6](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/6.png)  
 ![7](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/7.png)  
@@ -58,3 +57,9 @@
 >##结论
 取不同的时间节点绘制出的吸相图是不同的，具备一定的分形结构，在细节出的图像与图像的整体形貌是一致的。
 
+##problem3.21
+
+>##摘要
+>##背景
+>##正文
+>##结论
