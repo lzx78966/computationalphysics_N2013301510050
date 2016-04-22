@@ -33,27 +33,27 @@
 
 >##正文
 本次计算依然使用euler-cromer法，所用的微分方程组为：  
-<center>![1](<a href="https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png" rel="nofollow">https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png</a>)  
-<center>![2](<a href="https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png" rel="nofollow">https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png</a>)  
+<center>![1](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/1.gif)  
+<center>![2](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/2.gif)  
 用子程序形式即为：  
-<center>![3](<a href="https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png" rel="nofollow">https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png</a>)  
-<center>![4](<a href="https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png" rel="nofollow">https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png</a>)  
-<center>![5](<a href="https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png" rel="nofollow">https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png</a>)
+<center>![3](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/3.gif)  
+<center>![4](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/4.gif)  
+<center>![5](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/5.gif)
 
 你可以在这里得到我的[代码]()  
 所得F_d在各种取值下theta的图像  
-!(6)[]  
-!(7)[]  
-!(8)[]  
+![6](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/6.png)  
+![7](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/7.png)  
+![8](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/8.png)  
 由于在F_d较大的情况下，混沌系统的运动状况无法预测，且角度与时间的图像不够直观，所以绘制相图theta-omega:  
-!(9)[]  
-!(10)[]  
+![9](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/9.png)  
+![10](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/10.png)  
 绘出在特定的时间节点形成奇异吸子构成的相图，并与书中所给的pi/2的情况做对比:
-!(11)[]  
+![11](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/11.png)  
 以下是pi/2的情况，即驱动力最大的点 :
-!(12)[]  
+![12](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/12.png)  
 接着是pi/4的情况:  
-!(13)[]  
+![13](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/13.png)   
 
 >##结论
 取不同的时间节点绘制出的吸相图是不同的，具备一定的分形结构，在细节出的图像与图像的整体形貌是一致的。
