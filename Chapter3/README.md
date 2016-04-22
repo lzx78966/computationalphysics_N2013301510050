@@ -22,3 +22,39 @@
 下面是关于雅可比正弦函数的一些介绍:  
 ![picture4](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png)  
 从上式可以看出该函数的振幅的确与周期有函数关系，并且由图像模拟可知，振幅越小，周期越长。
+
+##problem3.12
+
+>##摘要
+混沌系统。
+
+>##背景
+物理摆在加了阻尼与周期性的驱动力之后，当周期性的驱动力的最大值F_d达到一定值时，产生了不可预测的轨迹，然而当F_d较小时，其运动状况又是可以预测的，这就是一个混沌系统所具备的条件。
+
+>##正文
+本次计算依然使用euler-cromer法，所用的微分方程组为：  
+<center>![1](<a href="https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png" rel="nofollow">https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png</a>)  
+<center>![2](<a href="https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png" rel="nofollow">https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png</a>)  
+用子程序形式即为：  
+<center>![3](<a href="https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png" rel="nofollow">https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png</a>)  
+<center>![4](<a href="https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png" rel="nofollow">https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png</a>)  
+<center>![5](<a href="https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png" rel="nofollow">https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/picture4.png</a>)
+
+你可以在这里得到我的[代码]()  
+所得F_d在各种取值下theta的图像  
+!(6)[]  
+!(7)[]  
+!(8)[]  
+由于在F_d较大的情况下，混沌系统的运动状况无法预测，且角度与时间的图像不够直观，所以绘制相图theta-omega:  
+!(9)[]  
+!(10)[]  
+绘出在特定的时间节点形成奇异吸子构成的相图，并与书中所给的pi/2的情况做对比:
+!(11)[]  
+以下是pi/2的情况，即驱动力最大的点 :
+!(12)[]  
+接着是pi/4的情况:  
+!(13)[]  
+
+>##结论
+取不同的时间节点绘制出的吸相图是不同的，具备一定的分形结构，在细节出的图像与图像的整体形貌是一致的。
+
