@@ -65,31 +65,31 @@
 >##背景
 物理摆是一个非线性阻尼驱动摆，它最接近真实摆因为它的非线性，该系统可以显示很多有趣的混沌现象。  
 非线性衰减驱动摆的方程可以写成：  
-![1]()  
+![1](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/21.1.png)  
 它是一个非线性二阶微分方程，所以它是可以用数值方法来解决的。
 
 >##正文
 利用欧拉 - 克罗默的方法来解决它，并绘制了相图，以证明该系统混沌。  
-你能在这里得到我的[代码]()。    
+你能在这里得到我的[代码](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/problem3.21.py)。    
 当FD=9，omegeD=2,q=1时的相图如下所示：  
-![2]()
+![2](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/21.2.png)
 可以看出，线条非常密集，几乎填满整个图形。  
 当FD=7.4时的相图如下所示：  
-![3]()  
+![3](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/21.3.png)  
 当FD=4时的相图如下所示：  
-![4]()  
+![4](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/21.4.png)  
 保证其他参数不变，改变FD，每一个不同的FD下获取驱动力的第400次的周期值，然后绘制分岔图。让我们来看看和上面相比有什么变化。  
-你能在这里得到我的[代码1]()  
+你能在这里得到我的[代码1](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/problem3.21.1.py)  
 当FD取值从0到10,我们可以得到下面的图像：  
-![5]()  
+![5](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/21.5.png)  
 当FD取值从5到10,我们可以得到下面的图像：  
-![6]()  
+![6](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/21.6.png)  
 在FD=7.4时，系统是完全混沌的，这时去考虑它的吸引子影响。  
-你能在这里得到我的[代码2]()  
+你能在这里得到我的[代码2](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/problem3.21.2.py)  
 当FD=7.4时，我们可以得到下面的图像：  
-![7]()  
+![7](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/21.7.png)  
 当FD=4时，我们可以得到下面的图像：  
-![8]()
+![8](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter3/21.8.png)
 
 >##结论
 对上面的得到的图像进行对比我们可以得到以下结论：  
