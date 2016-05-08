@@ -18,3 +18,4 @@
 ###[Chapter1(exercise4.5)](https://github.com/lzx78966/computationalphysics_N2013301510050/tree/master/Chapter1)
 ###[Chapter2(exercise6.7)](https://github.com/lzx78966/computationalphysics_N2013301510050/tree/master/Chapter2)
 ###[Chapter3(exercise8.9.10)](https://github.com/lzx78966/computationalphysics_N2013301510050/tree/master/Chapter3)
+###[Chapter4(exercise11)](https://github.com/lzx78966/computationalphysics_N2013301510050/tree/master/Chapter4)
