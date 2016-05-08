@@ -9,24 +9,23 @@
 
 >##正文
 关于双星系统，并且假定系统在初始状态下，总角动量为零，先后讨论了质量相等与不等的情形，在原有天文单位制列出的运动微分方程的基础，加以一定的修正，具体如下  
-![1]()  
-![2]()  
-![3]()  
-![4]()  
-你可以在这里得到我的[代码]()。
+![1](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter4/exercise11/1.gif)  
+![2](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter4/exercise11/2.gif)  
+![3](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter4/exercise11/3.gif)  
+![4](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter4/exercise11/4.gif)  
+你可以在这里得到我的[代码](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter4/exercise11/problem4.7.py)。
 通过修正后的运动微分方程所绘得的行星运动轨迹为下图所示：  
 这是质量相同时两体的轨迹：  
-![5]()  
+![5](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter4/exercise11/5.png)  
 这是质量不同时两体的轨迹：  
-![6]()
-
+![6](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter4/exercise11/6.png)
 上文中我们考虑的都是两体问题，这里我们考虑三体问题。我们知道，三体系统是一个混沌系统，我们预见其运动轨迹将会十分复杂。
 令三个质量相等的太阳放在一个我任意选择的三角形的三个顶点，并且总动量为0。我任选了三个三角形做实验。  
-你可以在这里得到我的[代码]()。
+你可以在这里得到我的[代码](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter4/exercise11/problem4.9.py)。
 三颗恒星的运动轨迹为下图：  
-![7]()  
-![8]()  
-![9]()  
+![7](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter4/exercise11/7.png)  
+![8](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter4/exercise11/8.png)  
+![9](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter4/exercise11/9.png)  
 图中的红点为三颗太阳的起始位置，黑点为绘图时它们所处的位置。
 
 >##结论
