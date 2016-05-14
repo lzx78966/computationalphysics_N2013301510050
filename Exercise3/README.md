@@ -24,10 +24,10 @@
 2.然后，定义图像“移动”的方向，我设定为左上、左下、右上、右下四个方向。  
 3.再次，当图像中的字符串“撞墙”的时候，它应该可以自动按照反射定律调整运行方向，于是我定义了一个change函数做这件事。  
 4.最后，我定义了run函数，它是一个while True的死循环结构，来保证图像一直在动。它的作用是：打印出一副新图像，检查是否"撞墙",设定下一张图的参数，暂停一个较小的时间间隔，清空屏幕。然后就如此循环下去。  
-你可以在这里得到我的[L1,L2代码]()和[L3代码]()。  
+你可以在这里得到我的[L1,L2代码](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Exercise3/word.py)和[L3代码](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Exercise3/Exercise3.py)。  
 运行程序后得到的结果如下图所示：  
-![1]()  
-![2]()  
+![1](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Exercise3/1.png)  
+![2](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Exercise3/2.png)  
 由于不会使用录屏工具，L3的图像未给出。 
 
 >##结论
