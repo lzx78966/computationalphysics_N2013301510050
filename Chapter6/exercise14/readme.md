@@ -14,7 +14,6 @@
 其中x0=0.3m，k=1000m^(-2)。弦上波的传播情况如下：  
 ![3](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter6/exercise14/3.gif)  
 由图可知，高斯型的干扰变为了两个相反方向的波传播，这两个波的峰值为原干扰的一半。且当其传播到了边界点时，波峰变为波谷，波谷变为波峰，这直接对应于物理中的半波损失，即波从光疏介质传播到光密介质时相位会减少180°。
-
 齐次线性偏微分方程的一个重要特征是有限个解的线性组合也是方程的解。由此，在弦上运动的两个波包的运动是独立的。为了说明这一点，我们在弦上的x=0.3m，0.7m处各施加一个峰值不同的高斯型扰动，观察之后波包的运动。你可以在这里得到[代码](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter6/exercise14/problem6.6.2.py)。得到的图像如下图所示：  
 ![4](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter6/exercise14/4.gif)  
 由图可知，各个波之间没有相互干扰，其在“碰撞”前后的形状和速度均没有变化。由此可知，这几个波作为弦的运动的解，是相互独立的
