@@ -8,16 +8,16 @@
 
 >##正文
 一维方向上的随机运动，以原点为起点，每个步长是确定的，但是向左向右在某一个时间点确实不确定的，但是在没有其他外力的条件下，向左向右的概率相等，这可以视作扩散运动的一维描述。  
-你可以在这里得到[代码1]()。  
+你可以在这里得到[代码1](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter7/exercise15/problem7.3.1.py)。  
 这是x关于步数的分布图像：  
-![1]()  
-你可以在这里得到[代码2]()。
+![1](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter7/exercise15/1.png)  
+你可以在这里得到[代码2](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter7/exercise15/problem7.3.2.py)。
 离原点距离平方随步数的变化关系图像为：  
-![2]()  
+![2](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter7/exercise15/2.png)  
 由图可知，此时的x的平方的平均值与步数近似为线性关系，此过程也是“类扩散的”。
-接下来将程序稍作修改，让向右行走的概率为0.75，向左为0.25，固定步长为1.你可以在这里得到[代码3]()和[代码4]()，观察两种平均值随步长的变化关系图像为：  
-![3]()  
-![4]()  
+接下来将程序稍作修改，让向右行走的概率为0.75，向左为0.25，固定步长为1.你可以在这里得到[代码3](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter7/exercise15/problem7.3.3.py)和[代码4](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter7/exercise15/problem7.3.4.py)，观察两种平均值随步长的变化关系图像为：  
+![3](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter7/exercise15/3.png)  
+![4](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Chapter7/exercise15/4.png)  
 由于左右概率不同，可见x的平均值随步数线性增大，其平方的平均与步数成二次关系。
 
 >##结论
