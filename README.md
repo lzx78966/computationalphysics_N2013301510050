@@ -5,7 +5,7 @@
 学院：物理科学与技术学院  
 班级：2013级材料物理班  
 联系方式：478667701@qq.com  
-          13006305671  
+----------13006305671  
 
 ##文件池用途
 
@@ -22,3 +22,5 @@
 ###[Chapter5(exercise13)](https://github.com/lzx78966/computationalphysics_N2013301510050/tree/master/Chapter5)
 ###[Chapter6(exercise14)](https://github.com/lzx78966/computationalphysics_N2013301510050/tree/master/Chapter6)
 ###[Chapter7(exercise15)](https://github.com/lzx78966/computationalphysics_N2013301510050/tree/master/Chapter7)
+###[Coursework(final exercise)](https://github.com/lzx78966/computationalphysics_N2013301510050/tree/master/Coursework)
+
