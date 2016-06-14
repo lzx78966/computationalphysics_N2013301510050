@@ -1,8 +1,8 @@
-[toc]
-#<center>结课论文</center>
-
-##<center></center>
-
+[TOC]
+#结课论文
+<h1 align = "center">结课论文</h1>
+##题目
+<h2 align = "center">题目</h2>
 ###摘要
 
 ###关键词
