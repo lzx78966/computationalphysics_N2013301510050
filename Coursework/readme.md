@@ -31,9 +31,9 @@ python;单摆;混沌;吸引子
 初始角度为10degree时：  
 [![11](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/11.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/1.py) 
 初始角度为179degree时：  
-[![11.1]((https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/11.1.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/1.py)
+[![11.1](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/11.1.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/1.py)
 相图比较：  
-[![11.2]((https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/11.2.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/1.py)  
+[![11.2](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/11.2.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/1.py)  
 
 <h5 id="1.2">1.2.有阻尼的单摆</h5>  
 无阻尼的单摆考虑的是理想情况，但在实际生活中我们还要考虑到空气阻力等一系列阻力对单摆运动的影响，也就是有阻尼的单摆。在无外界驱动力有阻尼的情况下，单摆的振动方程可以进行改写：  
