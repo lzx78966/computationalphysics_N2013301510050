@@ -114,16 +114,16 @@ python;单摆;混沌;吸引子
 <h5 id="4.1">4.1.影响奇异吸引子的因素探索</h5>
 在上文中的奇异吸引子的图中，我们取的是外力相位为0的时刻。在这里，我们探究一下取别的相位为基准时，奇异吸引子有什么变化。  
 首先是时间取值是外力相位为+pi/2的时刻的奇异吸引子图像：  
-[![41.2](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.1.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.2.py)  
+[![41.2](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.2.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.2.py)  
 再是时间取值是外力相位为+pi/4的时刻的奇异吸引子图像：  
-[![41.3](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.1.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.3.py)  
+[![41.3](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.3.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.3.py)  
 由这两张图连同上文中的一张图可以看出，这里明显随着相位从0到pi/4再到pi/2,奇异吸引子先向右上方、再向右下方运动。这表明随着相位的变化，奇异吸引子也相应的运动。  
 接下来我们探究当参数有微小变化时奇异吸引子的变化情况。我们选择外力的幅度和频率作为参数，分别令幅度F=1.2，1.25,1.3和f=2/3,2/3+0.00001,2/3+0.00002，观察奇异吸引子的变化。  
 首先是幅度变化时奇异吸引子的对比：  
-[![41.4](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.1.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.4.py)  
+[![41.4](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.4.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.4.py)  
 由这三张图可以看出，当F增加时，奇异吸引子的位置没有发生改变，但其上的点逐渐减少，这表明系统在逐渐离开混沌状态 。  
 之后是频率变化时奇异吸引子的对比：  
-[![41.5](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.1.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.5.py)  
+[![41.5](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.5.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.5.py)  
 由这三张图可以看出，当外力频率每次以0.00001的大小增加时，奇异吸引子的位置基本没变，但其上的点逐渐增加，吸引子的在相空间中体积增大，表明其“吸引”能力在逐渐下降。
 
 ###结论
