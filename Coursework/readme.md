@@ -84,6 +84,18 @@ python;单摆;混沌;吸引子
 从中可以看到，对于两个初始位置差异很小的非混沌摆，其角度差会迅速减小，最终趋于0.这表明非混沌摆对初值不敏感。  
 
 <h5 id="3.2">3.2.简谐运动到混沌运动的影响因素</h5>  
+接下来我们研究单摆系统是如何从简谐振动变为混沌振动的。为了更好地研究这一渐变过程，我们画所谓的bifurcation图。所谓bifurcation图，图上的点对应的是外力相位为零的时刻。如图所示为bifurcation图:  
+[![32.1](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/32.1.png 'title')](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/32.1.py)  
+由图可知，从1.35开始的一段中，每一个F只对应一个角度，这时单摆的周期与外力周期一致。之后每个F对应两个角度，表明其周期是外力两倍。以后周期逐渐变为外力周期的四倍、八倍等。由于分辨率的问题，图中难以显示更长周期的情况，但是显然的是，当F持续增大后，周期会越来越长，最终进入没有周期的混沌情况。
+
+改变参数对bifurcation图的影响  
+接下来研究的是改变外力频率和阻尼系数时bifurcation图会有什么变化。即影响混沌运动的因素探究。  
+首先改变外力的频率，令f=2/3,2/3+0.00001,2/3+0.00002,结果如下图:  
+[![32.2](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/32.2.png 'title')](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/32.2.py)  
+由图可知，当外力的频率增大时，图像的结构没有发生变化，只是图形整体下移，且上面的点有所增加。  
+其次改变阻尼系数，令q=0.5,0.51,0.52，结果如下图:  
+[![32.3](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/32.3.png 'title')](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/32.3.py)  
+由图可知，当阻尼系数有微小的变化时，图像整体右移，亦即推迟了混沌现象的出现。
 
 <h4 id="4">4.奇异吸引子简介</h4>  
 
