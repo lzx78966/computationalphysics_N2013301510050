@@ -64,6 +64,12 @@ python;单摆;混沌;吸引子
 2.单摆的混沌运动是一种确定性的随机行为。  
 3.单摆的混沌运动有其内在规律性。  
 4.单摆的混沌行为可以通过参量的改变进行控制。
+下面给出混沌运动与非混沌运动的相图比较。  
+下图是非混沌运动的相图：  
+[![21.1](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/21.1.png 'title')](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/21.1.py)
+下图是混沌运动的相图：  
+[![21.2](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/21.2.png 'title')](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/21.2.py)  
+
 
 <h5 id="3.1">3.1.混沌摆对初始条件的敏感性</h5>  
 1,外力幅度。  
@@ -98,17 +104,27 @@ python;单摆;混沌;吸引子
 由图可知，当阻尼系数有微小的变化时，图像整体右移，亦即推迟了混沌现象的出现。
 
 <h4 id="4">4.奇异吸引子简介</h4>  
+奇异吸引子是反映混沌系统运动特征的产物，也是一种混沌系统中无序稳态的运动状态。它又称为混沌吸引子，它具有复杂的拉伸，扭曲的结构。奇异吸引子是系统总体稳定性和局部不稳定性共同作用的产物，它具有自相似性，具有分形结构。  
+奇异吸引子是混沌运动的主要特征之一。奇异吸引子的出现与系统中包含某种不稳定性（不同于轨道不稳定性和李雅普诺夫不稳定性）有着密切关系，它具有不同属性的内外两种方向：在奇异吸引子外的一切运动都趋向（吸引）到吸引子，属于“稳定”的方向；一切到达奇异吸引子内的运动都互相排斥，对应于“不稳定”方向。  
+奇异吸引子具有两个主要的特点：①奇异吸引子上的运动对初始值表现出极强的敏感依赖性，在初始值上的微不足道的差异，就会导致运动轨道的截然不同。②奇异吸引子往往具有非整数维.  
+下图给出的是上文中讨论的混沌摆的奇异吸引子图像：  
+[![41.1](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.1.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.1.py)  
+如果是非混沌情况，图中只会有一个点。而在混沌情况中图中会出现奇异吸引子。
 
 <h5 id="4.1">4.1.影响奇异吸引子的因素探索</h5>
-
-
-
-
-
-
-
-
-
+在上文中的奇异吸引子的图中，我们取的是外力相位为0的时刻。在这里，我们探究一下取别的相位为基准时，奇异吸引子有什么变化。  
+首先是时间取值是外力相位为+pi/2的时刻的奇异吸引子图像：  
+[![41.2](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.1.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.2.py)  
+再是时间取值是外力相位为+pi/4的时刻的奇异吸引子图像：  
+[![41.3](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.1.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.3.py)  
+由这两张图连同上文中的一张图可以看出，这里明显随着相位从0到pi/4再到pi/2,奇异吸引子先向右上方、再向右下方运动。这表明随着相位的变化，奇异吸引子也相应的运动。  
+接下来我们探究当参数有微小变化时奇异吸引子的变化情况。我们选择外力的幅度和频率作为参数，分别令幅度F=1.2，1.25,1.3和f=2/3,2/3+0.00001,2/3+0.00002，观察奇异吸引子的变化。  
+首先是幅度变化时奇异吸引子的对比：  
+[![41.4](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.1.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.4.py)  
+由这三张图可以看出，当F增加时，奇异吸引子的位置没有发生改变，但其上的点逐渐减少，这表明系统在逐渐离开混沌状态 。  
+之后是频率变化时奇异吸引子的对比：  
+[![41.5](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.1.png "title")](https://github.com/lzx78966/computationalphysics_N2013301510050/blob/master/Coursework/41.5.py)  
+由这三张图可以看出，当外力频率每次以0.00001的大小增加时，奇异吸引子的位置基本没变，但其上的点逐渐增加，吸引子的在相空间中体积增大，表明其“吸引”能力在逐渐下降。
 
 ###结论
 
